@@ -80,4 +80,52 @@ int main()
     //     printf("the age is not 3,18,& 23");
     // }
     // return 0;
+
+    // loops
+
+    // int i = 0;
+
+    // for (i = 0; i <= 10; i++)
+    // {
+    //     printf("%d", i);
+    // }
+    // getch();
+
+    // int i = 0;
+
+    // for (i = 0; i <= 100; i++)
+    // {
+    //     printf("%d", i);
+    // }
+    // getch();
+
+    //     int i = 20;
+
+    //     for (i = 20; i < 100; i++)
+    //     {
+    //         printf("%d", i);
+    //     }
+    //     getch();
+
+    // int i = 0;
+    // while (i <= 5)
+    // {
+    //     printf("%d", i);
+    //     i++;
+    // }
+    // getch();
+
+    // int i = 0;
+
+    // for (i = 0; i < 30; i++)
+    // {
+    //     printf("%d", i);
+    // }
+    // return 0;
+
+    // int ar[5] = {1, 2, 3, 4, 5};
+    // for (int i = 0; i < 5; i++)
+    // {
+    //     printf("%d\n", ar[i]);
+    // }
 }
