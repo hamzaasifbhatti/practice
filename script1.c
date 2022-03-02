@@ -128,4 +128,95 @@ int main()
     // {
     //     printf("%d\n", ar[i]);
     // }
+
+    // ----------------------------------------------------------------------------
+
+    // int a = 10;
+    // 	int b = 20;
+    // 	int c = 30;
+
+    // 	if (a > b && a > c) {
+
+    // 		printf("a is greatest");
+    // 	}
+    // 	else if (b > a && b > c) {
+    // 		printf("b is greatest");
+
+    // 	}
+    // 	else {
+    // 		printf("c is greatest");
+    // 	}
+    // 	return 0;*/
+
+    // 	//switch case
+
+    // 	/*int e = 30;
+
+    // 		switch (e) {
+    // 		case 10: printf("value is 10");
+    // 			break;
+
+    // 		case 20: printf("value is 20");
+    // 			break;
+
+    // 		case 30: printf("value is 30");
+    // 			break;
+
+    // 	}
+    // 		return 0;*/
+
+    // 	//loops
+
+    // 	// i) for loop
+
+    // 	/*int i = 0;
+    // 	for (i = 0; i < 11; i++) {
+    // 		printf("%d \n", i);
+    // 	}
+    // 	getch();*/
+
+    // 	// i) while loop
+
+    // 	/*int i = 0;
+    // 	while (i < 5) {
+    // 		printf("%d", i);
+    // 		i++;
+    // 	}
+    // 	getch();
+
+    // int x;
+    // for (int i = 0;i <5; i++)
+    // {
+    // 	printf("\nHey Guys\n\n");
+    // 	for (int j = ;j < 3; j++)
+    // 	{
+    // 		printf("Type any No. & To Exit : Press 1\n");
+    // 		scanf("%d", &x);
+    // 		if (x == 1)
+    // 		{
+    // 		 	goto end;
+    // 		}
+    // 	}
+    // }
+    // end:
+    // printf("\'For\' loops are skipped as you pressed 1");
+    // return 0;
+
+    int num;
+    for (int i = 0; i < 8; i++)
+    {
+        printf("%d\n", i);
+        for (int j = 0; j < 8; j++)
+        {
+            printf("Enter the number. enter 0 to exit\n");
+            scanf("%d", &num);
+            if (num == 0)
+            {
+                goto end;
+            }
+        }
+    }
+end:
+
+    return 0;
 }
